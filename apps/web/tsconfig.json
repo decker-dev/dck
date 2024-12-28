@@ -2,13 +2,10 @@
   "extends": "@dkr/typescript/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { 
-      "@/*": ["./src/*"]
+    "paths": {
+      "@/*": ["./*"],
+      "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
-    "strict": true,
-    "allowJs": true,
-    "noEmit": true,
-    "jsx": "preserve",
     "plugins": [
       {
         "name": "next"
@@ -17,11 +14,10 @@
   },
   "include": [
     "next-env.d.ts",
-    "next.config.js",
+    "next.config.mjs",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
-    "tailwind.config.ts"
+    ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }
