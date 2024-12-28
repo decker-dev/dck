@@ -1,7 +1,9 @@
-import { loggerdkrlogger
+import {
+  OpenPanelComponent,
+  type PostEventPayload,
+  useOpenPanel,
+} from "@openpanel/nextjs";
 import { logger } from "@dkr/logger";
-import { logger } from "@dkr/logger";
-import { ostEventPayload, useOpenPanelntPayload,openpanelenextjsnelntPayload,openpanelenextjsnelntPayload,openpanelenextjsnelntPayload,openpanelenextjsnel } from "@openpanel/nextjs";
 
 const isProd = process.env.NODE_ENV === "production";
 
