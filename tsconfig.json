@@ -1,3 +1,3 @@
 {
-  "extends": "@dck/typescript/base.json"
+  "extends": "@dkr/typescript/base.json"
 }

@@ -1,10 +1,10 @@
 {
-  "extends": "@dck/typescript/react-library.json",
+  "extends": "@dkr/typescript/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@dck/ui/*": ["../ui/src/*"]
+      "@dkr/ui/*": ["../ui/src/*"]
     }
   },
   "include": ["."],

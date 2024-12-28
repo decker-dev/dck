@@ -1,5 +1,5 @@
 {
-  "extends": "@dck/typescript/react-library.json",
+  "extends": "@dkr/typescript/react-library.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
