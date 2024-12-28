@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@drk/ui/*": ["../../packages/ui/src/*"]
+      "@dkr/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {
