@@ -1,4 +1,4 @@
-import baseConfig from "@drk/ui/tailwind.config";
+import baseConfig from "@dkr/ui/tailwind.config";
 import type { Config } from "tailwindcss";
 
 export default {

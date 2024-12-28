@@ -1,10 +1,13 @@
 import "@dkr/ui/globals.css";
-import type { ReactNode } from "react";
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: ReactNode;
+  children: React.ReactNode;
 }>) {
-  return { children };
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
 }

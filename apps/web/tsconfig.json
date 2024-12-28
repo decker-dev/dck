@@ -1,8 +1,8 @@
 {
-  "extends": "@drk/typescript/nextjs.json",
+  "extends": "@dkr/typescript/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
+    "paths": { 
       "@/*": ["./src/*"]
     },
     "strict": true,
