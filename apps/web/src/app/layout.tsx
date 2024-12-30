@@ -1,7 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 
-import "@dkr/ui/globals.css";
+import "@dkr/ui/styles/globals.css";
 import { Providers } from "@/components/providers";
+import type { Metadata } from "next";
 
 const fontSans = Geist({
   subsets: ["latin"],
@@ -12,7 +13,10 @@ const fontMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
 });
-
+export const metadata: Metadata = {
+  title: "DKR",
+  description: "Nextjs Starter Kit with Tailwind CSS, TypeScript, Biome",
+};
 export default function RootLayout({
   children,
 }: Readonly<{
